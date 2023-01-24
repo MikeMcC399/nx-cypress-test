@@ -35,6 +35,6 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: npx nx serve store
-          working-directory: apps/store-e2e
+          project: apps/store-e2e
           config: baseUrl=http://localhost:4200
           record: true
